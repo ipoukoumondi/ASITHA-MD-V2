@@ -4,7 +4,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=X740nIwC#3VdAPhmNIWQtLO7a3lqvWVceDLUSV5oAjeQR9blxzDw' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=uiJC0SxY#sink8VRh9CQwvHTE3ss9gvqVq4mI7tdcstKEEmycXQg' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , I am alive now!!*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
@@ -26,7 +26,7 @@ AI_CHAT: process.env.AI_CHAT === undefined ? "true" : process.env.AI_CHAT,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
 NEWS_JID: process.env.NEWS_JID === undefined ? "120363333126312229@g.us" : process.env.NEWS_JID,
 SEEDER_GMAIL: process.env.SEEDER_GMAIL === undefined ? "" : process.env.SEEDER_GMAIL,
-SEEDER_PASSWORD: process.env.SEEDER_PASSWORD === undefined ? "" : process.env.SEEDER_PASSWORD,
+SEEDER_PASSWORD: process.env.SEEDER_PASSWORD === undefined ? "true" : process.env.SEEDER_PASSWORD,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,  
-POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
+POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://dark_lkp7_user:TpUElpZE8quHcQrQC9Wq1FzakTqAuMRH@dpg-csuquoqj1k6c738iptr0-a/dark_lkp7' : process.env.POSTGRESQL_URL,
 };
